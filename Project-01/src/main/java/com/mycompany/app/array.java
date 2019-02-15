@@ -63,6 +63,8 @@ public class array {
     public void varPara(int...numbers){
         for (int count=0;count<numbers.length;count++){
             System.out.println(numbers[count]);
+            System.out.println(numbers[count]);
+
         }
     }
 }
