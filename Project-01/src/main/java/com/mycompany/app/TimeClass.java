@@ -13,7 +13,11 @@ public class TimeClass {
         minute=(m>=0 && m<60 ? m:0);
         second=(s>=0 && s<60 ? s:0);
     }
-    public String showTime(){
+    public String inMillitary(){
+
         return String.format("%02d:%02d:%02d",hour,minute,second);
+    }
+    public String inRegular(){
+        return String.format("%02d:%02d:%02d %s",(hour==0 || hour==12 ? hour:hour%12), minute, second, (hour<12 ? "AM":"PM"));
     }
 }

@@ -37,8 +37,10 @@ public class TestClass {
         //ar.varPara(5,6,7,45,67,797);
 
         TimeClass time =new TimeClass();
-        time.setTime(12,56,78);
-        System.out.println(time.showTime());
+        time.setTime(4,56,16);
+        System.out.println(time.inMillitary());
+        System.out.println(time.inRegular());
+
     }
 
 }
