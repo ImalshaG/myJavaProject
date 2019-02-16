@@ -36,11 +36,17 @@ public class TestClass {
         //ar.changeArray(y);
         //ar.varPara(5,6,7,45,67,797);
 
-        TimeClass time =new TimeClass();
-        time.setTime(4,56,16);
-        System.out.println(time.inMillitary());
-        System.out.println(time.inRegular());
+        //TimeClass time =new TimeClass();
+        //time.setTime(4,56,16);
+        //System.out.println(time.inMillitary());
+        //System.out.println(time.inRegular());
 
+        ShowTime time1=new ShowTime(6);
+        time1.displayTime();
+        ShowTime time2=new ShowTime(6,56);
+        time2.displayTime();
+        ShowTime time3=new ShowTime(45,6,15);
+        time3.displayTime();
     }
 
 }
