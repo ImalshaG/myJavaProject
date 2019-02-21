@@ -1,4 +1,6 @@
 package com.mycompany.app;
+import java.util.EnumSet;
+import javax.swing.JFrame;
 
 /**
  * Created by DELL on 2/3/2019.
@@ -41,12 +43,34 @@ public class TestClass {
         //System.out.println(time.inMillitary());
         //System.out.println(time.inRegular());
 
-        ShowTime time1=new ShowTime(6);
-        time1.displayTime();
-        ShowTime time2=new ShowTime(6,56);
-        time2.displayTime();
-        ShowTime time3=new ShowTime(45,6,15);
-        time3.displayTime();
+        //ShowTime time1=new ShowTime(6);
+        //time1.displayTime();
+        //ShowTime time2=new ShowTime(6,56);
+        //time2.displayTime();
+        //ShowTime time3=new ShowTime(45,6,15);
+        //time3.displayTime();
+
+        //ystem.out.println("Name\tNature\tFuture\t\tStatus");
+        //for(EnumerationTest friends: EnumerationTest.values()){
+        //    System.out.printf("%s\t%s\t%s\t\t%s\n",friends,friends.getNature(),friends.getFuture(),friends.getStatus());
+        //}
+        //System.out.println("\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n");
+        //for(EnumerationTest besties: EnumSet.range(EnumerationTest.kethz,EnumerationTest.hish)){
+        //    System.out.printf("%s\t%s\t%s\t\t%s\n",besties,besties.getNature(),besties.getFuture(),besties.getStatus());
+        //}
+
+        //ConstructorTest member1=new ConstructorTest("Imii",22);
+        //ConstructorTest member2=new ConstructorTest("Pipi",10);
+        //ConstructorTest member3=new ConstructorTest("Thar",60);
+        //System.out.println(ConstructorTest.members);
+
+        //GuiTest Gui1=new GuiTest();
+        //Gui1.test1();
+        Gui1 newGui=new Gui1();
+        newGui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        newGui.setSize(500,300);
+        newGui.setVisible(true);
     }
+
 
 }

@@ -23,4 +23,16 @@ public class ConstructorTest {
 
         }
     }
+    private String name;
+    private int age;
+    public static int members;
+
+    public ConstructorTest(String nm, int yr){
+        name=nm;
+        age=yr;
+        members++;
+        System.out.printf("%s\t%s\t%s\n",name,age,members);
+        //System.out.println(name+age+members);
+    }
+
 }
