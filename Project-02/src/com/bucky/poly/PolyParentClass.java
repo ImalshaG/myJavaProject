@@ -6,4 +6,8 @@ package com.bucky.poly;
 abstract public class PolyParentClass {
     public abstract void eat();
 
+    public void drinks(){
+        System.out.println("Just water, please");
+    }
+
 }

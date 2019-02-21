@@ -7,4 +7,7 @@ public class PolySub2 extends PolyParentClass {
     public void eat(){
         System.out.println("I like to eat Cheese Kottu");
     }
+    public void drinks(){
+        System.out.println("Fanta, please");
+    }
 }

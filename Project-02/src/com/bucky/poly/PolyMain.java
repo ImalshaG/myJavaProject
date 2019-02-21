@@ -13,12 +13,25 @@ public class PolyMain {
         //    testArray[i].eat();
         //}
 
-        PolyNew1 test1= new PolyNew1();
-        PolyParentClass test3=new PolySub1();
-        PolySub2 test4=new PolySub2();
-        test1.digest(test3);
-        test1.digest(test4);
+        //PolyNew1 test1= new PolyNew1();
+        //PolyParentClass test3=new PolySub1();
+        //PolySub2 test4=new PolySub2();
+        //test1.digest(test3);
+        //test1.digest(test4);
 
+        PolyParentClass newArray1[]=new PolyParentClass[3];
+        PolySub1 ele1= new PolySub1();
+        PolySub2 ele2= new PolySub2();
+        PolySub1 ele3= new PolySub1();
+
+        newArray1[0]=ele1;
+        newArray1[1]=ele2;
+        newArray1[2]=ele3;
+
+        for (PolyParentClass element: newArray1){
+            element.drinks();
+            element.eat();
+        }
 
     }
 }
