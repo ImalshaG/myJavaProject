@@ -14,10 +14,8 @@ public class PolyMain {
         //}
 
         PolyNew1 test1= new PolyNew1();
-        PolyParentClass test2=new PolyParentClass();
         PolyParentClass test3=new PolySub1();
         PolySub2 test4=new PolySub2();
-        test1.digest(test2);
         test1.digest(test3);
         test1.digest(test4);
 
