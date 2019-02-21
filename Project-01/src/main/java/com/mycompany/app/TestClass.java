@@ -66,10 +66,15 @@ public class TestClass {
 
         //GuiTest Gui1=new GuiTest();
         //Gui1.test1();
-        Gui1 newGui=new Gui1();
-        newGui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        newGui.setSize(500,300);
-        newGui.setVisible(true);
+        //Gui1 newGui=new Gui1();
+        //newGui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //newGui.setSize(500,300);
+        //newGui.setVisible(true);
+
+        GUI2 gui2=new GUI2();
+        gui2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        gui2.setSize(350,200);
+        gui2.setVisible(true);
     }
 
 
